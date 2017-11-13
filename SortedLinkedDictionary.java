@@ -158,7 +158,7 @@ public class SortedLinkedDictionary<K extends Comparable<? super K>, V> implemen
     }
     Iterator<K> keyIterator = keys.iterator();
     return keyIterator;
-  } // getKeyIterator
+  } // end getKeyIterator
 
   /** Creates an iterator that traverses all values in this dictionary.
       @return  An iterator that provides sequential access to the values
@@ -174,7 +174,7 @@ public class SortedLinkedDictionary<K extends Comparable<? super K>, V> implemen
     }
     Iterator<V> valueIterator = values.iterator();
     return valueIterator;
-  } // getValueIterator
+  } // end getValueIterator
 
   /** Sees whether this dictionary is empty.
       @return  True if the dictionary is empty. */

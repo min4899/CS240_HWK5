@@ -138,7 +138,7 @@ public class SortedArrayDictionary<K extends Comparable<? super K>, V> implement
     } // end for
     Iterator<K> keyIterator = keys.iterator();
     return keyIterator;
-  } // getKeyIterator
+  } // end getKeyIterator
 
   /** Creates an iterator that traverses all values in this dictionary.
       @return  An iterator that provides sequential access to the values
